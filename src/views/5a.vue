@@ -4,17 +4,75 @@
     <section class="main_contents">
       <!--左のカラム-->
       <div class="left">
-        <section id="sm4">
-          <h2>サンプルページはこちら </h2>
-          <img src="../../assets/kiji_list/6-8.png" alt="鱈腹">
-          <p style="width:270px;margin: 0 auto">
-            このwebサイトは進級制作で制作したものです。<br>
-            サンプルとして架空のお店のページを1つ作成しました。<br>
-            どのように表示されるかはサンプルページをご確認ください。
+        <section id="sm1">
+          <h2>餃子といえばこのお店しかない！</h2>
+          <img src="../assets/kiji_list/6.jpg" alt="餃子">
+          <p>
+            餃子の街で知られている宇都宮で人気の餃子店。<br>
+            外はパリッ、中はジューシー。<br>
+            そんな餃子を味わえるのが、宇都宮駅から徒歩10分にある餃子店「鱈腹」です。
           </p>
-          <router-link to="/article/5">
+        </section>
+        <section id="sm2">
+          <h2>赤いのれんと餃子の匂いが目印</h2>
+          <img src="../assets/kiji_list/6-2.png" alt="餃子">
+          <p>
+            宇都宮駅を降りて10分歩くと、香ばしく焼かれた餃子の匂いがしてきました。<br>
+            赤いのれんには「餃子」の文字。<br>
+            ここが今回紹介するお店です。
+          </p>
+        </section>
+        <section id="sm3">
+          <h2>注文5分で餃子が運ばれてきます</h2>
+          <img src="../assets/kiji_list/6-4.png" alt="餃子">
+          <p>
+            餃子はなんと、1皿12個で300円！！<br>
+            なんてお財布に優しいのでしょうか。<br>
+            早速餃子を注文。<br>
+            <br>
+            ……すると、5分くらいで餃子が運ばれてきました！！<br>
+            餃子ってそんなに早く焼きあがるものでしたっけ？
+          </p>
+        </section>
+        <section id="sm4">
+          <h2>見るだけで分かるおいしさ</h2>
+          <img src="../assets/kiji_list/6-3.png" alt="餃子">
+          <p>
+            パリッと焼きあがった餃子は見るだけでそのおいしさが伝わってきます。
+          </p>
+        </section>
+        <section id="sm4">
+          <h2>鱈腹自慢の特製ダレに付けて食べる</h2>
+          <img src="../assets/kiji_list/6-1.png" alt="餃子">
+          <p>
+            餃子は鱈腹独自のレシピで調合された特製ソースでいただきます。<br>
+            <br>
+            評判通り、外はパリッとしていて、噛むとあっつあつの肉汁が中からあふれ出てきます。<br>
+            とても美味しいです。
+          </p>
+        </section>
+        <section id="sm4">
+          <h2>この餃子の秘密は……</h2>
+          <img src="../assets/kiji_list/6-5.png" alt="餃子">
+          <p>
+            ここ「鱈腹」では、油を多めに敷き、短時間で餃子を強火で一気に焼き上げているのだそうです。<br>
+            だから注文してすぐに運ばれてきたんですね。<br>
+            <br>
+            これが外はパリッ、中はジューシーな餃子の秘密です！
+          </p>
+        </section>
+        <section id="sm4">
+          <h2>今回紹介したお店はこちら！ </h2>
+          <h3 style="text-align:center">餃子専門店「鱈腹（たらふく）」</h3>
+          <img src="../assets/kiji_list/6-8.png" alt="鱈腹">
+          <p style="width:270px;margin: 0 auto">
+            八王子駅から徒歩10分にある餃子専門店。<br>
+            住所：東京都八王子市<br>
+            電話番号:xxx-xxxx-xxxx
+          </p>
+          <router-link to="/1t">
             <div class="btn">
-              <p>サンプルページを開く</p>
+              <p>詳しくはこちら</p>
             </div>
           </router-link>
         </section>
@@ -24,7 +82,7 @@
         <div class="sticky">
           <aside class="ad">
             <a href="https://www.sagojo.link/">
-              <img alt="SAGOJOの広告" src="../../assets/ad.png">
+              <img alt="SAGOJOの広告" src="../assets/ad.png">
             </a>
           </aside>
         </div>

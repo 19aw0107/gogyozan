@@ -51,34 +51,54 @@ const routes = [
     component: () => import('../views/AdForm.vue')
   },
   {
-    path: '/article/1',
-    name: 'article/1',
-    component: () => import('../views/article/1.vue')
+    path: '/1a',
+    name: '1a',
+    component: () => import('../views/1a.vue')
   },
   {
-    path: '/article/2',
-    name: 'article/2',
-    component: () => import('../views/article/2.vue')
+    path: '/2a',
+    name: '2a',
+    component: () => import('../views/2a.vue')
   },
   {
-    path: '/article/3',
-    name: 'article/3',
-    component: () => import('../views/article/3.vue')
+    path: '/3a',
+    name: '3a',
+    component: () => import('../views/3a.vue')
   },
   {
-    path: '/article/4',
-    name: 'article/4',
-    component: () => import('../views/article/4.vue')
+    path: '/4a',
+    name: '4a',
+    component: () => import('../views/4a.vue')
   },
   {
-    path: '/article/5',
-    name: 'article/5',
-    component: () => import('../views/article/5.vue')
+    path: '/5a',
+    name: '5a',
+    component: () => import('../views/5a.vue')
   },
   {
-    path: '/trip/1',
-    name: 'trip/1',
-    component: () => import('../views/trip/1.vue')
+    path: '/1t',
+    name: '1t',
+    component: () => import('../views/1t.vue')
+  },
+  {
+    path: '/2t',
+    name: '2t',
+    component: () => import('../views/2t.vue')
+  },
+  {
+    path: '/3t',
+    name: '3t',
+    component: () => import('../views/3t.vue')
+  },
+  {
+    path: '/4t',
+    name: '4t',
+    component: () => import('../views/4t.vue')
+  },
+  {
+    path: '/5t',
+    name: '5t',
+    component: () => import('../views/5t.vue')
   }
 ]
 

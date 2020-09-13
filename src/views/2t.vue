@@ -6,13 +6,13 @@
       <div class="left">
         <section id="sm4">
           <h2>サンプルページはこちら </h2>
-          <img src="../../assets/kiji_list/6-8.png" alt="鱈腹">
+          <img src="../assets/kiji_list/6-8.png" alt="鱈腹">
           <p style="width:270px;margin: 0 auto">
             このwebサイトは進級制作で制作したものです。<br>
             サンプルとして架空のお店のページを1つ作成しました。<br>
             どのように表示されるかはサンプルページをご確認ください。
           </p>
-          <router-link to="/article/5">
+          <router-link to="/1t">
             <div class="btn">
               <p>サンプルページを開く</p>
             </div>
@@ -24,7 +24,7 @@
         <div class="sticky">
           <aside class="ad">
             <a href="https://www.sagojo.link/">
-              <img alt="SAGOJOの広告" src="../../assets/ad.png">
+              <img alt="SAGOJOの広告" src="../assets/ad.png">
             </a>
           </aside>
         </div>

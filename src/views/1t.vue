@@ -4,85 +4,58 @@
     <section class="main_contents">
       <!--左のカラム-->
       <div class="left">
+        <section id="sm4">
+          <h2>餃子専門店「鱈腹（たらふく）」 </h2>
+          <img src="../assets/kiji_list/6-8.png" alt="鱈腹">
+          <p style="margin: 0 auto">
+            八王子駅から徒歩10分にある餃子専門店です。
+            外はパリッと、中はジューシーな餃子が自慢で、長年愛されてきました。
+            <br>
+            おすすめは餃子12個と半チャーハンのセット。
+          </p>
+          <div class="btn" @click="$store.state.UpOk2 = !$store.state.UpOk2">
+            <p>シゴトを確認する</p>
+          </div>
+        </section>
         <section id="sm1">
-          <h2>餃子といえばこのお店しかない！</h2>
-          <img src="../../assets/kiji_list/6.jpg" alt="餃子">
+          <h2>店舗情報</h2>
+          <h3>営業時間</h3>
           <p>
-            餃子の街で知られている宇都宮で人気の餃子店。<br>
-            外はパリッ、中はジューシー。<br>
-            そんな餃子を味わえるのが、宇都宮駅から徒歩10分にある餃子店「鱈腹」です。
+            平日（定休日：月曜日、水曜日）<br>
+            10:00~22:00<br>
+            土曜日、日曜日、祝日<br>
+            09:00~21:00
           </p>
-        </section>
-        <section id="sm2">
-          <h2>赤いのれんと餃子の匂いが目印</h2>
-          <img src="../../assets/kiji_list/6-2.png" alt="餃子">
+          <h3>座席数</h3>
           <p>
-            宇都宮駅を降りて10分歩くと、香ばしく焼かれた餃子の匂いがしてきました。<br>
-            赤いのれんには「餃子」の文字。<br>
-            ここが今回紹介するお店です。
+            カウンター:20席<br>
+            テーブル:6席
           </p>
-        </section>
-        <section id="sm3">
-          <h2>注文5分で餃子が運ばれてきます</h2>
-          <img src="../../assets/kiji_list/6-4.png" alt="餃子">
+          <h3>電話番号</h3>
           <p>
-            餃子はなんと、1皿12個で300円！！<br>
-            なんてお財布に優しいのでしょうか。<br>
-            早速餃子を注文。<br>
-            <br>
-            ……すると、5分くらいで餃子が運ばれてきました！！<br>
-            餃子ってそんなに早く焼きあがるものでしたっけ？
+            xxx-xxxx-xxxx
           </p>
-        </section>
-        <section id="sm4">
-          <h2>見るだけで分かるおいしさ</h2>
-          <img src="../../assets/kiji_list/6-3.png" alt="餃子">
+          <h3>アクセス</h3>
           <p>
-            パリッと焼きあがった餃子は見るだけでそのおいしさが伝わってきます。
+            八王子駅から徒歩10分。<br>
+            東京都八王子市旭町サンプル丁目
           </p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103736.00770929018!2d139.22580742638414!3d35.65852467310431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191eb9b729f437%3A0x27d80e549d4e1c62!2z5p2x5Lqs6YO95YWr546L5a2Q5biC!5e0!3m2!1sja!2sjp!4v1579513111193!5m2!1sja!2sjp" width="312" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </section>
-        <section id="sm4">
-          <h2>鱈腹自慢の特製ダレに付けて食べる</h2>
-          <img src="../../assets/kiji_list/6-1.png" alt="餃子">
-          <p>
-            餃子は鱈腹独自のレシピで調合された特製ソースでいただきます。<br>
-            <br>
-            評判通り、外はパリッとしていて、噛むとあっつあつの肉汁が中からあふれ出てきます。<br>
-            とても美味しいです。
-          </p>
-        </section>
-        <section id="sm4">
-          <h2>この餃子の秘密は……</h2>
-          <img src="../../assets/kiji_list/6-5.png" alt="餃子">
-          <p>
-            ここ「鱈腹」では、油を多めに敷き、短時間で餃子を強火で一気に焼き上げているのだそうです。<br>
-            だから注文してすぐに運ばれてきたんですね。<br>
-            <br>
-            これが外はパリッ、中はジューシーな餃子の秘密です！
-          </p>
-        </section>
-        <section id="sm4">
-          <h2>今回紹介したお店はこちら！ </h2>
-          <h3 style="text-align:center">餃子専門店「鱈腹（たらふく）」</h3>
-          <img src="../../assets/kiji_list/6-8.png" alt="鱈腹">
-          <p style="width:270px;margin: 0 auto">
-            八王子駅から徒歩10分にある餃子専門店。<br>
-            住所：東京都八王子市<br>
-            電話番号:xxx-xxxx-xxxx
-          </p>
-          <router-link to="/trip/1">
-            <div class="btn">
-              <p>詳しくはこちら</p>
-            </div>
-          </router-link>
-        </section>
+        <div class="up_ok kan" v-show="!$store.state.UpOk2">
+          <h3>シゴト内容</h3>
+          <p>ここにシゴト内容が入ります。</p>
+          <div class="btn cursor" @click="$store.state.UpOk2 = !$store.state.UpOk2">
+            <p>閉じる</p>
+          </div>
+        </div>
       </div>
       <!--右のカラム-->
       <div class="right">
         <div class="sticky">
           <aside class="ad">
             <a href="https://www.sagojo.link/">
-              <img alt="SAGOJOの広告" src="../../assets/ad.png">
+              <img alt="SAGOJOの広告" src="../assets/ad.png">
             </a>
           </aside>
         </div>
@@ -205,6 +178,57 @@ p {
     text-align: center;
     padding: 0;
   }
+}
+
+.up_ok{
+  width: 348px;
+  height: 280px;
+  padding: 20px;
+  background: #FFFFFF;
+  border: solid 3px #FFCB00;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: calc((100% - 360px)/2);
+  left: calc((100% - 350px)/2);
+  z-index: 4;
+}
+.kan .btn{
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border: solid 1px #dddddd;
+    margin: 0 auto;
+    position: relative;
+    p{
+      width: 339px;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+    p:after {
+        content: url("../assets/arrow2.svg");
+        position: absolute;
+        top: 0px;
+        right: 8px;
+        z-index: 1px;
+    }
+}
+/*＝＝ここまでもっとみるボタン＝＝*/
+
+.main_contents .left .kan .btn p{
+    width: 300px;
+}
+
+.main_colum .main_contents img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin: 20px auto;
 }
 
 /*＝＝CSS 850px以上＝＝*/

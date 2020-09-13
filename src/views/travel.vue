@@ -27,7 +27,7 @@
         <div id="app2">
           <ul v-for="kiji in limit" :key="kiji.id">
             <li>
-              <router-link v-bind:to="'/trip/' + kiji.id">
+              <router-link v-bind:to="kiji.id + 't'">
                 <div class="kiji">
                   <img :src="kiji.img" class="kiji_img">
                   <div>
